@@ -30,3 +30,11 @@ body {
     margin: 0;
     padding: 20px;
   }
+
+  img {
+    position: absolute;
+    bottom: 90px; /* Ajusta la posición vertical de la imagen */
+    left: 50%; /* Centra la imagen horizontalmente */
+    transform: translateX(-50%);
+    width: 200px; /* Ajusta el tamaño de la imagen según lo necesites */
+  }
